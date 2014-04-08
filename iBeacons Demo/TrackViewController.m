@@ -10,6 +10,10 @@
 
 @interface TrackViewController () {
     NSString *lastMajor;
+    
+    int timerInt;
+    NSTimer *slenderTimer;
+    BOOL shouldTimerFire;
 }
 
 @end
@@ -25,6 +29,9 @@
     [self initRegion];
     [self locationManager:self.locationManager didStartMonitoringForRegion:self.beaconRegion];
     
+    //Timers
+    timerInt = 0;
+    slenderTimer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(startSlender) userInfo:nil repeats:YES];
     
     lastMajor = @"";
 }
@@ -79,6 +86,16 @@
         [self.view setBackgroundColor:[UIColor whiteColor]];
     }
     
+    
+}
+
+- (void) startSlender {
+    if (shouldTimerFire) {
+        
+    }
+}
+
+- (void) resetSlender {
     
 }
 
