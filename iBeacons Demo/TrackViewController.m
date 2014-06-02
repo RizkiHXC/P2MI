@@ -39,7 +39,7 @@
     [self.view setBackgroundColor:[UIColor blackColor]];
     
     deadLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 100)];
-    [deadLabel setText:@"YOU DIED YOU BLACK FUCK"];
+    [deadLabel setText:@"YOU DIED YOU NOOB"];
     [deadLabel setTextAlignment:NSTextAlignmentCenter];
     [deadLabel setFont:[UIFont fontWithName:@"Helvetica" size:20]];
     [deadLabel setAlpha:0];
