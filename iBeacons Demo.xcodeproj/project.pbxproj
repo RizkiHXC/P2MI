@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A153111818F45CFD008FF539 /* slenderman_manipulacion_by_klipox-d5luvmd.png in Resources */ = {isa = PBXBuildFile; fileRef = A153111718F45CFD008FF539 /* slenderman_manipulacion_by_klipox-d5luvmd.png */; };
+		A153111A18F45D05008FF539 /* 213509__soykevin__zombie-attack.wav in Resources */ = {isa = PBXBuildFile; fileRef = A153111918F45D05008FF539 /* 213509__soykevin__zombie-attack.wav */; };
 		C9AF590017F5678D00792F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AF58FF17F5678D00792F91 /* Foundation.framework */; };
 		C9AF590217F5678D00792F91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AF590117F5678D00792F91 /* CoreGraphics.framework */; };
 		C9AF590417F5678D00792F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AF590317F5678D00792F91 /* UIKit.framework */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A153111718F45CFD008FF539 /* slenderman_manipulacion_by_klipox-d5luvmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slenderman_manipulacion_by_klipox-d5luvmd.png"; sourceTree = "<group>"; };
+		A153111918F45D05008FF539 /* 213509__soykevin__zombie-attack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "213509__soykevin__zombie-attack.wav"; sourceTree = "<group>"; };
 		C9AF58FC17F5678D00792F91 /* iBeacons Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iBeacons Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF58FF17F5678D00792F91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9AF590117F5678D00792F91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,6 +147,8 @@
 		C9AF590617F5678D00792F91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A153111918F45D05008FF539 /* 213509__soykevin__zombie-attack.wav */,
+				A153111718F45CFD008FF539 /* slenderman_manipulacion_by_klipox-d5luvmd.png */,
 				C9AF591717F5678D00792F91 /* Images.xcassets */,
 				C9AF590717F5678D00792F91 /* iBeacons Demo-Info.plist */,
 				C9AF590817F5678D00792F91 /* InfoPlist.strings */,
@@ -247,8 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A153111A18F45D05008FF539 /* 213509__soykevin__zombie-attack.wav in Resources */,
 				C9AF591817F5678D00792F91 /* Images.xcassets in Resources */,
 				C9AF590A17F5678D00792F91 /* InfoPlist.strings in Resources */,
+				A153111818F45CFD008FF539 /* slenderman_manipulacion_by_klipox-d5luvmd.png in Resources */,
 				C9AF591317F5678D00792F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +489,7 @@
 				C9AF593017F5678D00792F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9AF593117F5678D00792F91 /* Build configuration list for PBXNativeTarget "iBeacons DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				C9AF593317F5678D00792F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
