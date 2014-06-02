@@ -35,10 +35,7 @@
     self.locationManager.delegate = self;
     [self initRegion];
     [self locationManager:self.locationManager didStartMonitoringForRegion:self.beaconRegion];
-<<<<<<< HEAD
 
-=======
-    
     [self.view setBackgroundColor:[UIColor blackColor]];
     
     deadLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 100)];
@@ -61,15 +58,11 @@
     timerInt = 0;
     slenderTimer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(startSlender) userInfo:nil repeats:YES];
     
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
     //Audio
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"zombie" withExtension:@"wav"];
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     [audioPlayer setNumberOfLoops:0];
-    
->>>>>>> Slender
+
     lastMajor = @"";
     
     [self.view addSubview:slenderView];
