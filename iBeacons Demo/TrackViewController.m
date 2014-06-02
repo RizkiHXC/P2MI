@@ -24,8 +24,7 @@
     self.locationManager.delegate = self;
     [self initRegion];
     [self locationManager:self.locationManager didStartMonitoringForRegion:self.beaconRegion];
-    
-    
+
     lastMajor = @"";
 }
 
